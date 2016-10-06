@@ -1,4 +1,4 @@
 FROM maven:alpine
 
-RUN apk add --no-cache make docker gcc g++
+RUN apk add --no-cache make docker gcc g++ xmlindent
 
