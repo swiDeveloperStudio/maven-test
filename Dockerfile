@@ -9,5 +9,5 @@ RUN echo "deb http://ftp.debian.org/debian/ jessie main" > /etc/apt/sources.list
  && apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D \
  && apt-get --quiet update \
  && apt-get --quiet install --yes --no-install-recommends \
-			make gcc g++ xmlindent tofrodos devscripts fakeroot build-essential debhelper docker-engine python-jinja2 ninja-build zip \ 
+			make gcc g++ xmlindent tofrodos devscripts fakeroot build-essential debhelper mini-dinstall docker-engine python-jinja2 ninja-build zip \ 
  && apt-get clean
