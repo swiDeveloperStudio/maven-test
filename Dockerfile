@@ -13,6 +13,6 @@ RUN apt-get --quiet update \
  && apt-get --quiet update \
  && apt-get --quiet install --yes --no-install-recommends \
 			make gcc g++ xmlindent tofrodos devscripts fakeroot build-essential debhelper mini-dinstall docker-ce python-jinja2 python-pkg-resources ninja-build zip autoconf automake \
-			python3 python3-apt python3-requests \
+			python3 python3-apt python3-requests python3-all python3-setuptools \
 			swicwe \
  && apt-get clean
